@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Adversarial Attacks on Watermarks
 
 Abstract:
 <MY SUPER AWESOME PROJECT ABSTRACT>
