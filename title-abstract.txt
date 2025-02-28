@@ -2,4 +2,4 @@ Title:
 Adversarial Attacks on Watermarks
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+This project offers an innovative technique in the creation of an invisible watermark, leveraging the adversarial attack Projected Gradient Descent (PGD) that adds small perturbations to an image to misclassify it. Specifically, our approach is designed in rivalry of the regeneration attack that we explored in our Project 1.  This approach allows for a dual functionality: targeted misclassification for watermark verification and preservation of the original classification for content authenticity.  We purposely select k random labels to perturbed noise towards on the original image while still maintaining the dominant classification of said image. We verify if the image is watermarked to check if the logit distribution changes significantly based on the threshold that we set on the target labels. With this approach, we are able to offer a new solution to the battle of watermark removal in order to maintain and protect the authenticity of a digital image to avoid misrepresentation and the spread of misinformation.
