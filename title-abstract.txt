@@ -2,4 +2,24 @@ Title:
 Adversarial Attacks on Watermarks
 
 Abstract:
-This project offers an innovative technique in the creation of an invisible watermark, leveraging the adversarial attack Projected Gradient Descent (PGD) that adds small perturbations to an image to misclassify it. Specifically, our approach is designed in rivalry of the regeneration attack that we explored in our Project 1.  This approach allows for a dual functionality: targeted misclassification for watermark verification and preservation of the original classification for content authenticity.  We purposely select k random labels to perturbed noise towards on the original image while still maintaining the dominant classification of said image. We verify if the image is watermarked to check if the logit distribution changes significantly based on the threshold that we set on the target labels. With this approach, we are able to offer a new solution to the battle of watermark removal in order to maintain and protect the authenticity of a digital image to avoid misrepresentation and the spread of misinformation.
+This project offers an innovative technique in the creation of an invisible wa-
+termark, leveraging the adversarial attack Projected Gradient Descent (PGD)
+that adds small perturbations to an image to misclassify it. As the rise of gen-
+erative AI has caused for a raise of concerns on determining if a certain form
+of media is real. There needs to be a watermark that can be robust to sophis-
+ticated forms of watermark removal attacks. Therefore, our approach is de-
+signed in rivalry of the Stable Diffusion Regeneration Attack (SDRA) that we
+explored in our Project 1. The PGD watermark allows for a dual functionality:
+targeted incorrect labeling, fooling a classification model, for verification and
+preservation of the original classification for content authenticity. We used
+two methods of watermarking for this approach, a Black-Box and White-Box
+approach, which seems to have no significant difference in effectiveness. We
+purposely select k random labels to perturbed noise towards onto the original
+image, and the original image will still maintain its dominant classification.
+We verify if the image is watermarked to check if a certain percentage of tar-
+get labels logit scores increase. Running it through the SDRA with a certain
+number of k and an epsilon of maximum allowed perturbation, we were able
+to withstand the attack. With this approach, we are able to offer a new solu-
+tion to the battle of watermark removal in order to maintain and protect the
+authenticity of a digital image to avoid misrepresentation and the spread of
+misinformation
